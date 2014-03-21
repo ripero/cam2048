@@ -2,13 +2,16 @@
 html, body {
   margin: 0;
   padding: 0;
-  background: #faf8ef;
-  color: #776e65;
+  background: url(https://scontent-a.xx.fbcdn.net/hphotos-prn2/t31.0-8/1502678_10100298599491097_828497142_o.jpg);
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: black;
+  color: #222;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 18px; }
-
-body {
-  margin: 80px 0; }
 
 .heading:after {
   content: "";
@@ -18,6 +21,7 @@ body {
 h1.title {
   font-size: 64px;
   font-weight: bold;
+  color: #A31F34;
   margin: 0;
   display: block;
   float: left; }
@@ -56,7 +60,7 @@ h1.title {
 .score-container, .best-container {
   position: relative;
   display: inline-block;
-  background: #bbada0;
+  background: #8A8B8C;
   padding: 15px 25px;
   font-size: 20px;
   height: 25px;
@@ -104,7 +108,7 @@ p {
   line-height: 1.65; }
 
 a {
-  color: #776e65;
+  color: #A31F34;
   font-weight: bold;
   text-decoration: underline;
   cursor: pointer; }
@@ -115,12 +119,20 @@ strong.important {
 hr {
   border: none;
   border-bottom: 1px solid #d8d4d0;
-  margin-top: 20px;
-  margin-bottom: 30px; }
+  margin: 15px 0; }
 
 .container {
-  width: 500px;
-  margin: 0 auto; }
+  padding: 80px 150px;
+  background: #fff;
+  border: 1px solid #696968;
+  border-top: 4px solid #9d3c3c;
+  border-radius: 0px 0px 5px 5px;
+  -moz-border-radius: 0px 0px 5px 5px;
+  -webkit-box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.35);
+  box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.35);
+  width: 90%;
+  margin: 0 auto;
+  max-width: 500px;}
 
 @-webkit-keyframes fade-in {
   0% {
@@ -144,14 +156,13 @@ hr {
     opacity: 1; } }
 
 .game-container {
-  margin-top: 40px;
   position: relative;
   padding: 15px;
   cursor: default;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -moz-user-select: none;
-  background: #bbada0;
+  background: #8A8B8C;
   border-radius: 6px;
   width: 500px;
   height: 500px;
@@ -222,7 +233,7 @@ hr {
   margin-right: 15px;
   float: left;
   border-radius: 3px;
-  background: rgba(238, 228, 218, 0.35); }
+  background: #C2C0BF; }
   .grid-cell:last-child {
     margin-right: 0; }
 
@@ -487,44 +498,44 @@ hr {
   animation-fill-mode: backwards; }
 
 .game-intro {
-  margin-bottom: 0; }
+  margin: 10px 0; }
 
 .game-explanation {
   margin-top: 50px; }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 850px) {
   html, body {
     font-size: 15px; }
 
   body {
-    margin: 20px 0;
     padding: 0 20px; }
 
   h1.title {
-    font-size: 27px;
-    margin-top: 15px; }
+    font-size: 36px;
+    margin-top: 5px; }
 
   .container {
     width: 280px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    padding: 50px; }
 
   .score-container, .best-container {
     margin-top: 0;
-    padding: 15px 10px;
+    padding: 10px 8px;
+    font-size: inherit;
     min-width: 40px; }
 
   .heading {
     margin-bottom: 10px; }
 
   .game-container {
-    margin-top: 40px;
+    
     position: relative;
     padding: 10px;
     cursor: default;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -moz-user-select: none;
-    background: #bbada0;
     border-radius: 6px;
     width: 280px;
     height: 280px;
@@ -594,8 +605,7 @@ hr {
     height: 57.5px;
     margin-right: 10px;
     float: left;
-    border-radius: 3px;
-    background: rgba(238, 228, 218, 0.35); }
+    border-radius: 3px; }
     .grid-cell:last-child {
       margin-right: 0; }
 
