@@ -3,4 +3,4 @@ A small clone of [2048](http://gabrielecirulli.github.io/2048/) by Gabrielle Cir
 
 Inspired by Get MIT! by Mitchell Gu.
 
-Made just for fun; no hard feelings to other Colleges! [Play it here!](http://ripero.github.io/Cam2048/)
+Made just for fun; no hard feelings to other Colleges! [Play it here!](http://ripero.github.io/cam2048/)
